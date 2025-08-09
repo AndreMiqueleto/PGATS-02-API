@@ -62,4 +62,4 @@ A API estará disponível em `http://localhost:3000`.
 - O banco de dados é em memória (os dados são perdidos ao reiniciar o servidor).
 - O saldo inicial de cada usuário é R$ 10.000,00.
 - Para testar com Supertest, importe o `app.js`.
-# PGATS-02-API
+
