@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Esta API permite registro, login, consulta de usuários e transferências de valores, com regras de negócio para aprendizado de testes e automação de APIs.",
   "main": "app.js",
-  "scripts": {
+"scripts": {
     "test": "mocha 'test/**/*.test.js' --timeout 10000",
+    "test-external": "mocha 'test/external/**/*.test.js' --timeout 10000",
+    "test-controller": "mocha 'test/controller/**/*.test.js' --timeout 10000",
     "start": "node server.js"
   },
   "keywords": [],
